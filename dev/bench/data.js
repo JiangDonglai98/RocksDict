@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638535055527,
+  "lastUpdate": 1640771247153,
   "repoUrl": "https://github.com/JiangDonglai98/RocksDict",
   "entries": {
     "pytest-bench": [
@@ -552,6 +552,282 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.115598134589606e-7",
             "extra": "mean: 1.0467849060393273 usec\nrounds: 166667"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "51168630+JiangDonglai98@users.noreply.github.com",
+            "name": "JiangDonglai98",
+            "username": "JiangDonglai98"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01a377c421fc563262ec7cf92a5da37558400a7b",
+          "message": "Merge branch 'Congyuwang:main' into main",
+          "timestamp": "2021-12-29T17:04:37+08:00",
+          "tree_id": "0831f398499b23030f312b61299a38ae261d0b76",
+          "url": "https://github.com/JiangDonglai98/RocksDict/commit/01a377c421fc563262ec7cf92a5da37558400a7b"
+        },
+        "date": 1640771242526,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "test/benchmark.py::test_insert_key4_data4_Rdict",
+            "value": 157614.3218735418,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000032055660461796037",
+            "extra": "mean: 6.344601100414763 usec\nrounds: 2908"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key4_data4_Mdict",
+            "value": 736429.141946463,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001712970903249898",
+            "extra": "mean: 1.3579038946732749 usec\nrounds: 34483"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key8_data128_Rdict",
+            "value": 138847.18176642896,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000031214467175152872",
+            "extra": "mean: 7.202162746682297 usec\nrounds: 3699"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key8_data128_Mdict",
+            "value": 688822.2864099303,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009396710539741935",
+            "extra": "mean: 1.4517532602086602 usec\nrounds: 24155"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key16_data1024_Rdict",
+            "value": 82812.3458338743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000011323734317381114",
+            "extra": "mean: 12.07549417819959 usec\nrounds: 3693"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key16_data1024_Mdict",
+            "value": 398829.6467224254,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000018902532992571163",
+            "extra": "mean: 2.507336172769455 usec\nrounds: 52357"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key128_data16_Rdict",
+            "value": 147364.63392637542,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000035374750887225287",
+            "extra": "mean: 6.785888671902162 usec\nrounds: 4096"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key128_data16_Mdict",
+            "value": 662635.3579308211,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000018044480742544232",
+            "extra": "mean: 1.5091256269853315 usec\nrounds: 52632"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_key128_data16_Pdict",
+            "value": 938954.6930454919,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016142725379352585",
+            "extra": "mean: 1.065014113467507 usec\nrounds: 103093"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key4_data4_Rdict",
+            "value": 51638.09871005462,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009239996435196357",
+            "extra": "mean: 19.365546466281625 usec\nrounds: 13569"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key4_data4_Mdict",
+            "value": 393197.8601833802,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000023616284470907773",
+            "extra": "mean: 2.543248835417412 usec\nrounds: 82645"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key8_data128_Rdict",
+            "value": 53785.08311862145,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001238929416144616",
+            "extra": "mean: 18.592515657074077 usec\nrounds: 25707"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key8_data128_Mdict",
+            "value": 368131.70194037136,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000026667670460469224",
+            "extra": "mean: 2.716419136763115 usec\nrounds: 63292"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key16_data1024_Rdict",
+            "value": 37686.51911064883,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001323955690311508",
+            "extra": "mean: 26.534687299295747 usec\nrounds: 1551"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key16_data1024_Mdict",
+            "value": 207667.73160877192,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003070018563779523",
+            "extra": "mean: 4.815384615862775 usec\nrounds: 637"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key128_data16_Rdict",
+            "value": 45620.6231606394,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004461473067813336",
+            "extra": "mean: 21.919911012149015 usec\nrounds: 16182"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key128_data16_Mdict",
+            "value": 336007.5368728154,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003917141911759922",
+            "extra": "mean: 2.976123718256109 usec\nrounds: 96154"
+          },
+          {
+            "name": "test/benchmark.py::test_insert_drop_key128_data16_Pdict",
+            "value": 470620.24300913484,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000025395958120954948",
+            "extra": "mean: 2.1248554749919455 usec\nrounds: 106383"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key4_data4_Rdict",
+            "value": 86625.08662613278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000024503098452871006",
+            "extra": "mean: 11.543999999860587 usec\nrounds: 350"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key4_data4_Mdict",
+            "value": 420517.5183593544,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004242802068147631",
+            "extra": "mean: 2.3780222139174882 usec\nrounds: 46729"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key8_data128_Rdict",
+            "value": 80398.70435713622,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006870189264300505",
+            "extra": "mean: 12.438011383341898 usec\nrounds: 26179"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key8_data128_Mdict",
+            "value": 392521.75942596,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000019115489721344644",
+            "extra": "mean: 2.5476294650835185 usec\nrounds: 59881"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key16_data1024_Rdict",
+            "value": 70417.64463854805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001620099415741805",
+            "extra": "mean: 14.200986203571192 usec\nrounds: 19570"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key16_data1024_Mdict",
+            "value": 250169.3192840692,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014327868761026971",
+            "extra": "mean: 3.997292725030331 usec\nrounds: 591"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key128_data16_Rdict",
+            "value": 75742.7358658649,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008903659843413808",
+            "extra": "mean: 13.202586209335376 usec\nrounds: 696"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key128_data16_Mdict",
+            "value": 371056.0490573637,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000042766469683141755",
+            "extra": "mean: 2.695010639337143 usec\nrounds: 52632"
+          },
+          {
+            "name": "test/benchmark.py::test_mixture_key128_data16_Pdict",
+            "value": 453768.83383634774,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000019635528145832087",
+            "extra": "mean: 2.203765277455461 usec\nrounds: 9083"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key4_data4_Rdict",
+            "value": 100667.90126522681,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004739329925022079",
+            "extra": "mean: 9.933653005890415 usec\nrounds: 2294"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key4_data4_Mdict",
+            "value": 654550.67023601,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002242318080547144",
+            "extra": "mean: 1.5277656039057024 usec\nrounds: 113637"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key8_data128_Rdict",
+            "value": 89989.32594767174,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005758125338055946",
+            "extra": "mean: 11.112429051657683 usec\nrounds: 37879"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key8_data128_Mdict",
+            "value": 601100.6153209811,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000034134531127435414",
+            "extra": "mean: 1.6636149997384564 usec\nrounds: 100000"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key16_data1024_Rdict",
+            "value": 75894.88298565241,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008829005026888363",
+            "extra": "mean: 13.176118872059472 usec\nrounds: 33784"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key16_data1024_Mdict",
+            "value": 68081.35238548701,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00205761552953204",
+            "extra": "mean: 14.688309866963973 usec\nrounds: 36364"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key128_data16_Rdict",
+            "value": 82158.57214361563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007218553518776741",
+            "extra": "mean: 12.17158446049878 usec\nrounds: 34365"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key128_data16_Mdict",
+            "value": 582317.8071336275,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000046560398143050816",
+            "extra": "mean: 1.7172753224263408 usec\nrounds: 128206"
+          },
+          {
+            "name": "test/benchmark.py::test_pressure_insert_key128_data16_Pdict",
+            "value": 856601.2115402522,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000014573127447142445",
+            "extra": "mean: 1.1674043726857481 usec\nrounds: 131579"
           }
         ]
       }
